@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "xcNFT documentation",
   description: "A comprehensive documentation for xcNFT pallet",
+  base: '/xcnft-docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
