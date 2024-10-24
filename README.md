@@ -3,7 +3,7 @@ Github pages documentation for xcNFT pallet
 
 ![display 3](https://github.com/user-attachments/assets/8e617ebe-e979-4b85-ba79-7bb629c87989)
 
-Live version - [xcNFT official docs](xcnft.github.io/docs/) 
+Live version - [xcNFT official docs](https://paraspell-research.github.io/xcnft-docs/) 
 
 For development of documentation
 ```
