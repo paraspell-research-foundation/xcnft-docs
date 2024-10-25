@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "xcnft-pallet documentation",
-  description: "A comprehensive pallet for cross-chain NFTs",
+  description: "A comprehensive pallet for cross-chain NFTs on Polkadot",
   base: '/xcnft-docs/',
   head: [
     [

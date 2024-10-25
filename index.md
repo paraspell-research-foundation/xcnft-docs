@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "xcNFT"
-  text: "Solution for scalable cross-chain and pallet agnostic NFT transactions"
+  text: "Solution for scalable cross-chain and pallet agnostic NFT transactions on Polkadot"
   tagline: One pallet, endless NFT possibilities
   actions:
     - theme: brand
