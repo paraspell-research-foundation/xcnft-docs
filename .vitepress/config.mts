@@ -2,14 +2,22 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "xcNFT documentation",
-  description: "A comprehensive documentation for xcNFT pallet",
+  title: "xcnft-pallet documentation",
+  description: "A comprehensive pallet for cross-chain NFTs",
   base: '/xcnft-docs/',
+  head: [
+    [
+      'link',
+      { rel: 'icon', type: 'image/x-icon',  href: 'favicon.png' }
+    ]
+  ],
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    logo: '/favicon.png',
+
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Implementation', link: '/markdown-examples' },
+      { text: 'User guide', link: '/markdown-examples' }
     ],
 
     sidebar: [
@@ -23,7 +31,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/paraspell-research/xcnft-pallet' }
     ]
   },
   ignoreDeadLinks: true

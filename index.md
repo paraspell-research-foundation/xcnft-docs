@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "xcNFT documentation"
-  text: "A comprehensive documentation for xcNFT pallet"
-  tagline: My great project tagline
+  name: "xcNFT"
+  text: "Solution for scalable cross-chain and pallet agnostic NFT transactions"
+  tagline: One pallet, endless NFT possibilities
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: NFTs implementation
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: Uniques implementation
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Pallet agnostic
+    details:  xcNFT supports cross-chain transfers between chains with different NFT pallet implementation
+  - title: Generalized
+    details: Pre-configure special pallet specific types within cross-chain call.
+  - title: Fully compatible with frame
+    details: xcNFT versions implement either original pallet_nfts or pallet_uniques
 ---
 
