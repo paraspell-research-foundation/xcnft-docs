@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "xcnft-pallet documentation",
+  title: "xcnft-pallet docs",
   description: "A comprehensive pallet for cross-chain NFTs on Polkadot",
   base: '/xcnft-docs/',
   head: [
@@ -16,17 +16,27 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Implementation', link: '/markdown-examples' },
-      { text: 'User guide', link: '/markdown-examples' }
+      { text: 'Implementation', link: '/implementation-guide/introduction' },
+      { text: 'User guide', link: '/user-guide/intro' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Implementation guide',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
+          { text: 'Introduction', link: '/implementation-guide/introduction' },
+          { text: 'xcnft for pallet_nfts', link: '/implementation-guide/pallet-nfts' },
+          { text: 'xcnft for pallet_uniques', link: '/implementation-guide/pallet-uniques' }
+        ],
+      },
+      {
+        text: 'User guide',
+        items: [
+          { text: 'Getting Started', link: '/user-guide/intro' },
+          { text: 'Pallet storage', link: '/user-guide/storage' },
+          { text: 'Pallet errors and events', link: '/user-guide/errors-events' },
+          { text: 'Pallet functionality', link: '/user-guide/functions' },
+        ],
       }
     ],
 

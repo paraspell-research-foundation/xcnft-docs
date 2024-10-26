@@ -1,5 +1,4 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
@@ -9,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: NFTs implementation
-      link: /markdown-examples
+      link: /implementation-guide/pallet-nfts
     - theme: alt
       text: Uniques implementation
-      link: /api-examples
+      link: /implementation-guide/pallet-uniques
 
 features:
   - title: Pallet agnostic
