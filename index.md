@@ -16,8 +16,8 @@ hero:
 features:
   - title: Pallet agnostic
     details:  xcNFT supports cross-chain transfers between chains with different NFT pallet implementation
-  - title: Generalized
-    details: Pre-configure special pallet specific types within cross-chain call.
+  - title: Cross-chain migrations
+    details: Cross-chain migrate your assets from one pallet to the other with ease within single call.
   - title: Fully compatible with frame
     details: xcNFT versions implement either original pallet_nfts or pallet_uniques
 ---

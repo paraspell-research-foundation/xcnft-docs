@@ -36,8 +36,8 @@ Before you begin with implementing this magical ✨ pallet into your Parachain, 
 
 
 ### You should also make choice of xcnft version:
-- If your Parachain uses **pallet_nfts** head over to [xcnft for pallet_nfts]() section.
-- If your Parachain uses **pallet_uniques** head over to [xcnft for pallet_uniques]() section.
+- If your Parachain uses **pallet_nfts** head over to [xcnft for pallet_nfts](https://paraspell-research.github.io/xcnft-docs/implementation-guide/pallet-nfts.html) section.
+- If your Parachain uses **pallet_uniques** head over to [xcnft for pallet_uniques](https://paraspell-research.github.io/xcnft-docs/implementation-guide/pallet-uniques.html) section.
 
 ## Testing pallet functionality 🔎
 
