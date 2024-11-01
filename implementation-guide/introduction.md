@@ -47,6 +47,14 @@ No worries!
 
 **Try it out before you implement it!**
 
+### Dockerized local testnet build:
+**Make sure your docker deamon is running**
+Copy the [Dockerfile](https://github.com/paraspell-research/xcnft-pallet/blob/main/Dockerfile) from this repository and input following commands:
+- `docker build --platform linux/x86_64 -t polkadot-sdk-image:latest .` to build Docker image
+- `docker run --platform linux/x86_64 -p 9910-9913:9910-9913 -p 9920-9921:9920-9921 --rm -it polkadot-sdk-image:latest` to start Zombienet.
+
+Once Zombienet is started, continue from step 8 in the next section.
+
 ### Follow these steps to create local testnet that implements xcNFT:
 
 1. Fork or clone [following repository](https://github.com/paraspell-research/polkadot-sdk)
